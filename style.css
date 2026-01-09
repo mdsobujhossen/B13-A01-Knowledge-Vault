@@ -35,7 +35,7 @@
 }
 .header-section p{
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
     color: #627382;
 }
 
@@ -243,4 +243,69 @@ nav ul a{
     color: #001931;
     margin-bottom: 16px;
 
+}
+
+
+/* ready to think section */
+#ready-to-think {
+    margin-top: 120px;
+}
+#ready-to-think .ready-to-think-container{
+    background: #f7f6f2;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+#ready-to-think .ready-to-think-container .btn{
+    margin: 24px 0 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+#ready-to-think .ready-to-think-container .content h2{
+    font-size: 40px;
+}
+#ready-to-think .ready-to-think-container .ready-think-bottom-p{
+    line-height: 20px;
+
+}
+
+
+/* footer section */
+#footer {
+    background: #001931;
+    margin-top: 120px;
+}
+
+#footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding:120px 0 80px;
+}
+#footer .footer-container .socila-links h4{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #fff;
+}
+#footer .footer-container .socila-links ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+#footer .footer-container .socila-links ul li a img{
+    max-width: 20px;
+}
+
+#footer .copy-right{
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+    padding: 30px 0;
+    
+}
+#footer .copy-right p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#fafafa ;
 }
