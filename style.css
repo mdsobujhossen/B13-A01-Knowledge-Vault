@@ -8,7 +8,7 @@
 
 /* shared styles */
 .container{
-    max-width: 1300px;
+    max-width: 1141px;
     margin: 0 auto;
 
 }
@@ -73,55 +73,41 @@ nav ul a{
 }
 #banner .banner-container{
     text-align: center;
-    max-width: 725px;
 }
-#banner .banner-container .early-access-div{
-    text-align: center;
-    
+
+#banner .banner-container .early-access-parent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
 }
-#banner .banner-container .early-access-div .early-access-card{
+#banner .banner-container .early-access{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     background: #fff;
-
+    gap: 10px;
+    max-width: max-content;
+    padding: 8px 12px;
+    border-radius: 100px;
 }
-#banner .banner-container .early-access-div .early-access-card i{
-    color: #9fc6af;
-    background: #30b868;
-    font-size: 16px;
-    border-radius: 100%;
-    
-    display: inline-block;
-}
-#banner .banner-container .early-access-div .early-access-card p{
-    
-    color: #30b868;
-    font-size: 16px;
-    font-weight: 500;
-}
-/* #banner .banner-container .early-access p i{
-    margin-left: 100px;
-} */
-/* #banner .banner-container .early-access div{
-
-}
-#banner .banner-container .early-access div img{
-    max-width: 12px;
-    padding: 6px;
-    background: #627382;
-    border-radius: 50%;
+#banner .banner-container .early-access img{
+    width: 16px;
 }
 #banner .banner-container .early-access p{
-    color:green ;
-} */
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 500;
+    color: #30b868;
+    margin: 0;
+}
+
 
 #banner .banner-container h1{
     font-size: 72px;
     font-weight: 700;
     line-height: 84px;
-    color: #fff
+    color: #fff;
+    text-transform: capitalize;
 
 }
 #banner .banner-container h1 .green-color{
@@ -132,6 +118,11 @@ nav ul a{
     line-height: 34px;
     color: #fff;
     margin: 16px 0 32px;
+}
+#banner .banner-container .button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #banner .banner-container .button-container .btn{
     display: inline-flex;
@@ -146,6 +137,7 @@ nav ul a{
     max-width: 20px;
 }
 #banner .banner-container .button-container .btn2 {
+
     background: #00000000;
     border: 1px solid #fff;
 }
